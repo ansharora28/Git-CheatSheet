@@ -200,3 +200,18 @@ $ git commit --ammend
 ```bash
 $ git diff
 ```
+## UNDOING CHANGES:
+
+**Creating a commit that undoes all changes made in <commit>**
+    
+```bash
+$ git revert <commit>
+```
+    
+**Remove <file> from staging area keeping working directory unchanged**
+    
+```bash
+$ git reset <file>
+```
+
+
